@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 
+//this function will prompt the questios  and return the data
 function promptUser() {
     return inquirer.prompt([
       {
@@ -40,7 +41,7 @@ function promptUser() {
         "GNU General Public License (GPL)", 
         "Mozilla Public License 2.0", 
         "Common Development and Distribution License", 
-        "Eclipse Public License version 2.0"]
+        "Eclipse Public License version 1.0"]
       },
       {
         type: "input",
