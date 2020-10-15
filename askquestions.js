@@ -1,3 +1,5 @@
+const inquirer = require('inquirer');
+
 function promptUser() {
     return inquirer.prompt([
       {
@@ -22,7 +24,7 @@ function promptUser() {
       },
       {
         type: "input",
-        name: "contribution guidelines",
+        name: "contribution",
         message: "Enter the contribution guidelines:"
       },
       {
@@ -33,7 +35,7 @@ function promptUser() {
       {
         type: "list",
         name: "license",
-        options: ["MIT license", 
+        choices: ["MIT license", 
         "Apache License 2.0", 
         "GNU General Public License (GPL)", 
         "Mozilla Public License 2.0", 
