@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 
-//this function will prompt the questios  and return the data
+//this function will prompt the questions  and return the data
 function promptUser() {
     return inquirer.prompt([
       {

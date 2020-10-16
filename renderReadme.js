@@ -1,3 +1,4 @@
+//this object stores the logo and license description which will be accessed by the renderReadMe function
 const licenseInfo = {
     "MIT license":{
         logo: "https://img.shields.io/badge/License-MIT-yellow.svg",
@@ -61,6 +62,7 @@ const licenseInfo = {
     }
 }
 
+//this function fills in the read me with their answers from the promp
 function renderReadMe(answers){
 
 
