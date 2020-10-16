@@ -15,7 +15,7 @@ async function init() {
         //use those answers to render read.me
         const readmeTemplate = renderReadMe(answers);
         //write the file
-        await writeFileAsync("README.me", readmeTemplate);
+        await writeFileAsync("README1.md", readmeTemplate);
         console.log("Success");
     } catch(err) {
         console.log(err)
